@@ -25,6 +25,7 @@
 | 01 | [쿠버네티스 환경 503 Service Unavailable 원인 분석 및 해결](./01-k8s-startup-probe-503.md) | Kubernetes / 배포 | 코드 변경 없이 발생한 503, 로그조차 없던 이유 |
 | 02 | [쿠버네티스 Stale Endpoint로 인한 CrashLoopBackOff 및 서비스 다운](./02-k8s-stale-endpoint.md) | Kubernetes / 네트워크 | 파드 2개를 방치한 대가, 복구 시도가 부른 서비스 다운 |
 | 03 | [외부 MSA(Feign) 연동 시 DB 커넥션 풀 고갈 및 트랜잭션 전파 예외 해결](./03-feign-hikaricp-connection-leak.md) | Spring / 트랜잭션 | DB 커넥션을 쥔 채 외부 HTTP 통신을 하면 벌어지는 일 |
+| 04 | [프론트-백엔드 간 검증 로직 중복과 정합성 불일치 해결을 위한 SSOT 설계](./04-trouble-shooting.md) | Architecture / 정합성 | 화면과 서버의 계산 공식이 어긋날 때: 검증 로직 일원화 패턴 분석과 적용기 |
 
 ## 작성자
 정은선 | Backend Developer
